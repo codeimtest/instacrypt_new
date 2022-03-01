@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>InstaCrypt - безопасный сервис обмена электронной влаюты</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" rel="stylesheet">
+        <!-- Main css -->
+        <link href="css/style.min.css" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+
+    </head>
+
+    <body>
+
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky tagline-height">
+            <div class="container">
+                <!-- Logo Start-->
+                <a class="logo" href="index.html">
+                    <span class="logo-light-mode">
+                        <img src="images/logo-dark.png" class="l-dark" height="28" alt="">
+                        <img src="images/logo-light.png" class="l-light" height="28" alt="">
+                    </span>
+                    <img src="images/logo-light.png" height="28" class="logo-dark-mode" alt="">
+                </a>
+                <!-- Logo end-->
+                
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+                <!--Login button Start-->
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item search-icon mb-0">
+                        <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <div class="btn btn-icon btn-pills btn-primary"><i class="uil uil-user"></i></div>
+                        </a>
+                    </li>
+                </ul>
+                <!--Login button End-->
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-right nav-light">
+                        <li><a href="#" class="sub-menu-item">Главная</a></li>
+                        <li><a href="#" class="sub-menu-item"> Тарифы</a></li>
+                        <li><a href="#" class="sub-menu-item">О нас</a></li>
+                        <li><a href="#" class="sub-menu-item">Отзывы</a></li>
+                        <li><a href="#" target="_blank" class="sub-menu-item">Контакты</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+        
+        <!-- Hero Start -->
+        <section class="bg-home bg-black d-flex align-items-center" style="background-image: url('images/bg/bg02.png') !important; background-position: center !important;">
+            <div class="container">
+                <div class="row mt-5 align-items-center">
+                    <div class="col-lg-9 col-md-6 col-12">
+                        <div class="title-heading">
+                            <h4 class="display-5 text-white title-dark fw-medium mt-3 mb-4">InstaCrypt - безопасный сервис обмена электронных валют</h4>
+                            <p class="text-white-50 para-desc mb-0">Гарантируем полную конфиденциальность сделки  и сохранность средств наших клиентов.</p>
+                            
+                            <div class="mt-4 pt-2">
+                                <a href="/tarifs" class="btn btn-primary m-1"><i class="fa-solid fa-right-left"></i> Обменять</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                </div><!--end row-->
+            </div><!--end container--> 
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Start -->
+        <section class="section pb-0">
+            <div class="container">
+                <div class="row align-items-end mb-4 pb-2">
+                    <div class="col-md-8">
+                        <div class="section-title">
+                            <h4 class="title mb-3">Обменивайте безопасно</h4>
+                            <p class="text-muted para-desc mb-0">Главные принципы нашей компании - это полная анонимность и доверие наших клиентов. Свяжитесь с нами для уточнения деталей.</p>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-4 d-none d-md-block">
+                        <div class="text-end">
+                            <a href="/tarrifs" class="text-primary">Смотреть тарифы <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-12 mt-4 pt-2">
+                        <div class="card border-0 rounded shadow position-relative">
+                           <img src="images/exchange.JPG" alt="">
+                        </div>
+                    </div><!--end slide-->
+
+                    <div class="col-12 d-block d-md-none">
+                        <div class="text-center mt-4">
+                            <a href="market-price.html" class="text-primary">See Marketplace <i class="uil uil-arrow-right"></i></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="feature feature-primary feature-clean text-center rounded p-4">
+                            <div class="icons text-center">
+                                <i class="uil uil-shield-check d-block mx-auto rounded h3 mb-0"></i>
+                            </div>
+                            <div class="content mt-4">
+                                <a href="features.html" class="text-dark h5 title">Полная безопасность и анонимность</a>
+                                <p class="text-muted mt-3 mb-0">Гарантируем конфиденциальность наших клиентов, обратившихся к нам.</p>
+
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="feature feature-primary feature-clean text-center rounded p-4">
+                            <div class="icons text-center">
+                                <i class="uil uil-newspaper d-block mx-auto rounded h3 mb-0"></i>
+                            </div>
+                            <div class="content mt-4">
+                                <a href="features.html" class="text-dark h5 title">Никаких скрытых комиссий и наценок</a>
+                                <p class="text-muted mt-3 mb-0">По запросу предоставляем чеки операций, выписки переводов. Расчеты всех сделок предоставляем сразу после получения оплаты.</p>
+
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                        <div class="feature feature-primary feature-clean text-center rounded p-4">
+                            <div class="icons text-center">
+                                <i class="uil uil-browser d-block mx-auto rounded h3 mb-0"></i>
+                            </div>
+                            <div class="content mt-4">
+                                <a href="features.html" class="text-dark h5 title">Удобство и надежность нашего сервиса</a>
+                                <p class="text-muted mt-3 mb-0">Обменный пункт оказывает услуги по обмену самых актуальных направлений.</p>
+
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+        </section><!--end section-->
+        <!-- End -->
+
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <div class="position-relative me-lg-5">
+                            <img src="images/illustration/revenue.svg" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="section-title">
+                            <h4 class="title mb-3 mt-2">Мгновенный обмен</h4>
+
+                            <p class="text-muted">Наш сервис позволяет обменять любую валюту без задержек и длительных обработок заявок.</p>
+
+                            <p class="text-muted mb-0">На сайте используются популярные способы оплаты, а так же обмена электронной валюты.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 order-2 order-md-1">
+                        <div class="section-title me-lg-5">
+                            <h4 class="title mb-3">Актуальные курсы и низкие комиссие</h4>
+                            <p class="text-muted">Мы стараемся предоставлять насколько можно актуальные курсы, а так же сохранять низкую комиссию по рынку.</p>
+                        
+                            <ul class="list-unstyled text-muted mb-0">
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span><span class="fw-medium">Различные способ оплаты.</span> </li>
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span><span class="fw-medium">Отзывчивая поддержка.</span> </li>
+                                <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span><span class="fw-medium">Широкий список направлений.</span> </li>
+                            </ul>
+
+                            <div class="mt-4">
+                                <a href="/tarifs" class="btn btn-soft-primary"><i class="uil uil-wallet"></i> Обменять валюту</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-5 order-1 order-md-2">
+                        <img src="images/illustration/bills.svg" class="img-fluid" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 order-1 order-md-2">
+                        <div class="section-title ms-lg-5">
+                            <h4 class="title mb-3">Присоединяйтесь к нам уже сейчас</h4>
+                            <p class="text-muted mb-0">Полная анонимность наших пользователей и персональный менеджер, который поможет решить любые сложившиеся ситуации.</p>
+
+                            <div class="mt-4">
+                                <a href="/login" class="btn btn-soft-primary"><i class="uil uil-arrow-growth"></i> Войти в личный кабинет</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-5 order-2 order-md-1">
+                        <img src="images/illustration/profit.svg" class="img-fluid" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+        </section>
+
+        <!-- Footer Start -->
+        <footer class="bg-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-100 footer-border-top">
+                            <div class="row">
+                                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                    <a href="#" class="logo-footer">
+                                        <img src="images/logo-light.png" height="28" alt="">
+                                    </a>
+                                    <p class="text-foot mt-4">Instacrypt - безопасный сервис обмена электронных валют. 100% конфиденциальность и сохранность средств наших клиентов.</p>
+                                </div><!--end col-->
+
+                                <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="text-light footer-head">Разделы</h5>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="#" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Главная</a></li>
+                                        <li><a href="#" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Тарифы</a></li>
+                                        <li><a href="#" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>О нас</a></li>
+                                        <li><a href="#" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Блог</a></li>
+                                        <li><a href="#" class="text-foot"><i class="uil uil-angle-right-b me-1"></i>Контакты</a></li>
+                                    </ul>
+                                </div><!--end col-->
+                                
+            
+                                <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="text-light footer-head">Обменивайте валюту уже сейчас</h5>
+
+                                    <ul class="list-unstyled footer-list mt-4 mb-2">
+                                        <li class="list-inline-item mx-1"><a href="login.html" class="btn btn-soft-primary">Войти</a></li>
+                                        <li class="list-inline-item mx-1"><a href="signup.html" class="btn btn-primary underline">Регистрация</a></li>
+                                    </ul>
+                                    <small class="text-foot d-block">Остались вопросы? <a href="/contacts" class="text-foot fw-medium">Свяжитесь с нами</a></small>
+
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-border-top">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-8">
+                            <div class="text-sm-start text-center">
+                                <p class="mb-0 text-foot">© <script>document.write(new Date().getFullYear())</script> InstaCrypt</p>
+                            </div>
+                        </div><!--end col-->
+    
+                        <div class="col-sm-4 mt-4 mt-sm-0">
+                            <div class="text-sm-end text-center">
+                                <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-pills btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+                            </div>                            
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Offcanvas Start -->
+        <div class="offcanvas offcanvas-end bg-white shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header p-4 border-bottom">
+                <h6 id="offcanvasRightLabel" class="mb-0">
+                    Войти в личный кабинет
+                </h6>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+            </div>
+            <div class="offcanvas-body p-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card border-0" style="z-index: 1">
+                            <div class="card-body p-0">
+                                <form class="login-form">
+                                    <div class="row">
+                                        
+                                        <div class="col-lg-12 mt-4">
+                                            <div class="mb-3">
+                                                <label class="form-label">Логин или E-mail <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="user" class="fea icon-sm icons"></i>
+                                                    <input type="text" class="form-control ps-5" placeholder="Ваш логин или E-mail" name="email" required="">
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+
+                                        <div class="col-lg-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Пароль <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="key" class="fea icon-sm icons"></i>
+                                                    <input type="password" class="form-control ps-5" placeholder="Пароль" required="">
+                                                </div>
+                                            </div>
+                                        </div><!--end col-->
+
+                                        <div class="col-lg-12">
+                                            <div class="d-flex justify-content-between">
+                                                <small class="forgot-pass underline"><a href="reset-password.html" class="text-dark">Забыли пароль?</a></small>
+                                            </div>
+                                        </div><!--end col-->
+
+                                        <div class="col-lg-12 mb-0">
+                                            <div class="d-grid">
+                                                <button class="btn btn-primary">Войти</button>
+                                            </div>
+                                        </div><!--end col-->
+
+                                        <div class="col-12 text-center mt-3">
+                                            <small ><small class="text-dark me-2">Нету учетной записи?</small> <a href="signup.html" class="text-dark" style="text-decoration: underline;">Регистрация</a></small>
+                                        </div><!--end col-->
+                                    </div><!--end row-->
+                                </form>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div>
+
+        </div>
+        <!-- Offcanvas End -->
+        
+        <!-- javascript -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="js/plugins.init.js"></script>
+        <script src="js/app.js"></script>
+        
+    </body>
+
+</html>
